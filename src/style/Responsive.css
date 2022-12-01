@@ -1,0 +1,164 @@
+@media screen and (max-width:375px) {
+    /* ESTILOS GENERALES */
+    .your__files{
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .figure__texts{
+        width: 280px;
+        cursor: pointer;
+    }
+
+    .title{
+        font-family: var(--encabezados);
+        font-size: 1.3rem;
+        color: var(--Very-Dark-Blue);
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .paragraph{
+        color: var(--Very-Dark-Blue);
+        font-size: 13px;
+    }
+
+    .header{
+        width: 100%;
+        padding: 70px 20px;
+    }
+
+    .header__figure{
+        width: 100px;
+        cursor: pointer;
+    }
+
+    .nav__link{
+        text-decoration: none;
+        margin-left: 20px;
+        color: var(--Very-Dark-Blue);
+        font-size: 14px;
+    }
+
+    /* PASO A OTRA SESSION  */
+    .title__mod{
+        width: 300px;
+        line-height: 1.5;
+    }
+
+    .paragraph__one{
+        width: 270px;
+        text-align: center;
+    }
+
+    .form{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        width: 100%;
+        margin-right: 0;
+        outline: none;
+        margin-bottom: 10px;
+    }
+
+    .form__button{
+        width: 100%;
+    }
+
+    /* PASO A SESSION  */
+    .contenedor__productive{
+        width: 100%;
+        height: 780px;
+    }
+
+    .title-mod{
+        font-size: 16px;
+    }
+
+    .paragraph__two{
+        width: 300px;
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    .wave{
+        background-image: url("/src/images/bg-curve-mobile.svg");
+    }
+
+    .texts__etiqueta{
+        text-align: center;
+    }
+
+    /* PASO A LA SESSION DE ACCESS TODAY  */
+    .contenedor__today{
+        flex-direction: column;
+    }
+
+    .title__accessToday{
+        font-size: 15px;
+    }
+
+    .paragraph__accessToday{
+        width: 260px;
+        font-size: 13px;
+        color: #fff;
+    }
+
+    .form__two{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        outline: none;
+    }
+
+    /* SESSION DE FOOTER  */
+    .footer{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content__logoTexts{
+        width: 100%;
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+
+    .content__textsIcon{
+        width: 100%;
+        height: 100%;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .textsIcon__content{
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 30px;
+        flex-direction: column;
+    }
+
+    .texts{
+        margin-top: 20px;
+    }
+
+    .redes__icons{
+        margin-top: 20px;
+        align-self: center;
+    }
+}
